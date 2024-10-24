@@ -1,18 +1,20 @@
-# Bank Administration System
+# Bank Management System
 
-## Description
-
-This is a Bank Administration System that simulates the functionality of an Automated Teller Machine (ATM). The project provides users with all the necessary options to interact with a real ATM, including:
-
-- **Check Balance**: Allows users to view the available balance in their account.
-- **Withdraw Cash**: Users can withdraw amounts of money according to the limits set by the bank.
-- **Deposit Cash**: Option to deposit cash into the bank account.
-- **Fund Transfers**: Users can perform transfers between accounts.
-- **Change PIN**: Option to change the PIN to ensure account security.
+A Java-based Bank Management System that provides users with an intuitive graphical user interface to perform banking operations. This project is designed for educational purposes, showcasing fundamental concepts of object-oriented programming, GUI development with Swing, and database interaction using JDBC.
 
 ## Features
 
-- **User-Friendly Interface**: An easy-to-use graphical interface that allows users to navigate through the ATM options effortlessly.
-- **Secure Transactions**: All transactions are processed securely, ensuring user data protection.
-- **Comprehensive Options**: Includes all standard ATM functionalities to enhance user experience.
-- **Database Connectivity**: The application is connected to a MySQL server for storing and retrieving user account data and transaction history.
+- **User Authentication:** Secure login and PIN management for user accounts.
+- **Account Operations:** 
+  - Create an account and manage personal details.
+  - Deposit and withdraw funds with real-time balance updates.
+  - View transaction history to track account activities.
+- **Data Storage:** Uses a MySQL database to store user information and transaction records.
+- **Intuitive GUI:** Designed with a user-friendly interface utilizing Java Swing for a smooth user experience.
+
+## Technologies Used
+
+- Java
+- Java Swing
+- MySQL Database
+- JDBC
